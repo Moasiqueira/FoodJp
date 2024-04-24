@@ -9,60 +9,86 @@
 <body>
     <header>
         
-        <img class="logo" src="./img/FoodJP.png" alt="LogoFoodJP">
+        <div class="logo">
+            <img  src="./img/FoodJP.png" alt="LogoFoodJP">
+        </div>
             
         <div class="menu">
             <ul>
                 <li><a href="#Inicio">Inicio</a><li>
                 <li><a href="#Cardapio">Cardápio</a><li>
                 <li><a href="#Sobre">Sobre</a><li>
-                <li><a href="#Entrar">Entrar</a><li>
             </ul>
         </div>
+        <button type="button" class="button">Entrar</button>
     </header>
 
     <main>
 
-        <section class="principal">
-            <h1>Comida Oriental</h1>
-            <p>A culinária Japonesa é bastante equilibrada, sendo muito rica em peixes (ômega 3), vegetais, massas e ingredientes frescos.</p>
-            <a href="#">Cardápio</a>
-            <img src="./img/imgSushi.png" alt="imagem de Sushi">
-        </section>
+        <div id="container">
+            <div class="texto">
+                <h1>Comida Oriental</h1>
+                <p>A culinária Japonesa é bastante equilibrada, sendo muito rica em peixes (ômega 3),
+                vegetais, massas e ingredientes frescos.</p>
+                <button type="button" class="button">Cardápio</button>
+            </div>
+            <div class="imagem">
+                <img src="./img/imgSushi.png" alt="imagem de Sushi">
+            </div>
+        </div>
 
-        <section class="ModoDeFazer">
-            <img src="./img/img segurando prato.png" alt="Segurando prato de comida">
-            <h1>Feita de forma Tradicional</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="#">Leia sobre o preparo</a>
-        </section>
-
+       
+        <div id="modo-de-fazer">
+            <div class="imagem">
+                <img src="./img/img segurando prato.png" alt="Segurando prato de comida">
+            </div>
+            <div class="texto">
+                <h1>Feita de forma Tradicional</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#">Leia sobre o preparo</a>
+            </div>
+        </div>
+       
         <section class="Opçoes">
-            <h1>Mais Populares</h1>
-            <img src="./img/Ramen apimentado.png" alt="">
-            <h1>Ramen Apimentado</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>R$ 30</p>
-            <img src="./img/Ramen frango.png" alt="">
-            <h1>Ramem Frango</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>R$ 30</p>
-            <img src="./img/Ramen tradicional.png" alt="">
-            <h1>Ramem Tradicional</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>R$ 30</p>
-            
-        </section>
+               
+                <h1>Mais Populares </h1>
 
+                    <div id="opcao1">
+                        <img src="./img/Ramen apimentado.png" alt="">
+                        <h1>Ramen Apimentado</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>R$ 30</p>
+                    </div>
+                    <div id="opcao2">
+                        <img src="./img/Ramen frango.png" alt="">
+                        <h1>Ramem Frango</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>R$ 30</p>
+                    </div>
+                    <div id="opcao3">
+                        <img src="./img/Ramen tradicional.png" alt="">
+                        <h1>Ramem Tradicional</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>R$ 30</p>
+                    </div>
+               
+                
+        </section>
+       
         <section class="Comentarios">
-            <h1>Comemtários </h1>
+            <div id=""></div>
+                <h1>Comemtários </h1>
 
-            <img src="./img/comentario1.png" alt="">
-            <img src="./img/comentario2.png" alt="">
+                <img src="./img/comentario1.png" alt="">
+                <img src="./img/comentario2.png" alt="">
 
         </section>
+        
     </main>
-    <footer></footer>
+
+    <footer>
+        <p>quem somos</p>
+    </footer>
 
     
 </body>
